@@ -6,9 +6,19 @@
 		height: 36px ;
 		width: 105px ;
 		border-radius: 2px ;
+		transition: opacity 0.1s ;
 		cursor: pointer ;
 		margin-right: 8px ;
 	}
+
+	.subscribe-button:hover {
+		opacity: 0.8 ;
+	}
+
+	.subscribe-button:active {
+		opacity: 0.6 ;
+	}
+
 	.join-button {
 		background-color: white ;
 		border-color: rgb(41, 118, 250) ;
@@ -17,11 +27,22 @@
 		color: rgb(41, 118, 250) ;
 		height: 36px ;
 		width: 60px ;
+		transition: background-color 0.15s, color 0.15s ;
 		border-radius: 2px ;
 		cursor: pointer ;
 	}
+
+	.join-button:hover {
+		background-color: rgb(41, 118, 250) ;
+		color: white ;
+	}
+
+	.join-button:active {
+		opacity: 0.7 ;
+	}
+
 	.x-button {
-		background-color: rgb(41, 118, 200) ;
+		background-color: rgb(2, 140, 200) ;
 		color: white ;
 		height: 36px ;
 		width: 75px ;
@@ -31,7 +52,13 @@
 		font-size: 15px ;
 		cursor: pointer ;
 		margin-left: 8px ;
+		transition: box-shadow 0.15s ;
 	}
+
+	.x-button:hover {		
+		box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15) ;
+	}
+
 	.uber-button {
 		background-color: black ;
 		color: white ;
@@ -41,6 +68,7 @@
 		cursor: pointer ;
 		margin-left: 8px ;
 	}
+
 	.amazon-button {
 		background-color: rgb(255, 216, 20) ;
 		border: none ;
@@ -50,6 +78,7 @@
 		cursor: pointer ;
 		margin-left: 8px ;
 	}
+
 	.github-button {
 		background-color: rgb(46, 164, 79) ;
 		color: white ;
